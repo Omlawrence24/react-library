@@ -3,6 +3,7 @@
 *{
   box-sizing: border-box;
   margin: 0;
+  background-color:cornflowerblue;
 }
 
 .header{ 
@@ -10,12 +11,14 @@
   background: black;
   color: aliceblue;
   text-align: center;
+  font-size: x-large;
 }
 
 header h1{
   display:inline;
   margin-left: 15px;
   font-weight:300;
+  font-size: x-large;
 }
 
 /* ****************************SEARCH****************************** */
@@ -31,5 +34,6 @@ header h1{
 .card {
  width: 18rems;
  text-align: center;
+ background-color: darkgray;
 
 }
