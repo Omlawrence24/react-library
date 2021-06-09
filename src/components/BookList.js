@@ -1,15 +1,14 @@
-import React from 'react';
+import { Row } from "react-bootstrap"
 import BookCard from "./BookCard";
 
 const BookList = (props) => {
     return (
-        <div className="row">
-        <div className="col-sm-6">
-            
+             <div>
+         <Row>
             {
-
                 props.books.map((book, i) => {
                     return <BookCard
+                    
                         key={i}
                         image={book.volumeInfo.imageLinks.smallThumbnail}
                         title={book.volumeInfo.title}
@@ -20,7 +19,8 @@ const BookList = (props) => {
 
                 })
             }
-        </div>
+                
+                 </Row>
         </div>
     )
 }

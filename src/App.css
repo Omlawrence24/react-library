@@ -30,23 +30,38 @@
 }
   
 /* ****************************Card****************************** */
-.card{
+/* .card{
   position: column;
-}
-.card-body {
- width: 25%;
- text-align: center;
- background-color: rgb(189, 156, 156);
+    } */
+    .card-body {
+    /* width: 100%; */
+    text-align: center;
+    background-color: rgb(92, 121, 170);
 
-}
-.column {
+    }
+    
+    /* .column {  
   float: left;
   width: 33.33%;
 }
 
 /* Clear floats after the columns */
-.row:after {
+/* .row:after {
   content: "";
   display: table;
   clear: both;
+} */
+.book-card{
+  padding: 3rem;
 }
+.book-text{
+
+  text-align: center;
+}
+
+.book-img{
+  object-fit: cover;
+    border-radius: 10%;
+    width: 50vw;
+height: 50vh;
+} 

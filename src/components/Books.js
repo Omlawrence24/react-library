@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import SearchArea from "./SearchArea";
 import BookList from "./BookList"
 import request from "superagent";
+import { Container } from "react-bootstrap"
 
 // this is a smart component it holds the site state
 class Books extends Component {
@@ -52,10 +53,14 @@ handleSort = (e) => {
         )
         return (
             
-        <div>
+        <div >
             <SearchArea handleSort={this.handleSort} searchBook={this.searchBook} handleSearch={this.handleSearch}/>
+        <Container>
+            <div className="">
            
             < BookList books={sortedBooks} />
+        </div>
+        </Container>
         </div>
     )
     }
