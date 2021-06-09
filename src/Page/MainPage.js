@@ -9,6 +9,7 @@ function MainPage() {
     <div className="page">
       <Header/>
       <div className="main-page">
+        
       <Books/>
       </div>
     </div>

@@ -3,8 +3,9 @@ import BookCard from "./BookCard";
 
 const BookList = (props) => {
     return (
-        <div className="Container">
-        <div className="list">
+        <div className="row">
+        <div className="col-sm-6">
+            
             {
 
                 props.books.map((book, i) => {
