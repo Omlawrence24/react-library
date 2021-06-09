@@ -1,9 +1,8 @@
 /* ****************************HEADER****************************** */
 
 *{
-  box-sizing: border-box;
-  margin: 0;
-  background-color:cornflowerblue;
+  background-size: cover;
+  background: url(https://www.protocol.com/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNTYzNDc5OC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTY1MTI2Nzg1NX0.1TniDEeokHM4YagrY-mpqY8KH260ivfsfBVZeN6kTXs/image.jpg?width=1245&quality=85&coordinates=0%2C230%2C0%2C230&height=700) no-repeat;
 }
 
 .header{ 
@@ -11,28 +10,30 @@
   background: black;
   color: aliceblue;
   text-align: center;
-  font-size: x-large;
+  font-size: small;
 }
 
-header h1{
+.header1{
   display:inline;
   margin-left: 15px;
   font-weight:300;
-  font-size: x-large;
-}
+  font-size: 256%;
+  font-family: fantasy;
+} 
 
 /* ****************************SEARCH****************************** */
 
 .search {
   text-align: center;
   margin-top: 2rem;
+  color: aliceblue;
   
 }
   
 /* ****************************SEARCH****************************** */
 
 .card {
- width: 18rems;
+ width: 10rems;
  text-align: center;
  background-color: darkgray;
 

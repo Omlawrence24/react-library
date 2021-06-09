@@ -3,6 +3,7 @@ import BookCard from "./BookCard";
 
 const BookList = (props) => {
     return (
+        <div className="Container">
         <div className="list">
             {
 
@@ -18,6 +19,7 @@ const BookList = (props) => {
 
                 })
             }
+        </div>
         </div>
     )
 }
