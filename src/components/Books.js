@@ -54,6 +54,7 @@ handleSort = (e) => {
             
         <div>
             <SearchArea handleSort={this.handleSort} searchBook={this.searchBook} handleSearch={this.handleSearch}/>
+           
             < BookList books={sortedBooks} />
         </div>
     )

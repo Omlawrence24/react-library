@@ -2,7 +2,8 @@ import React from 'react'
 
 const BookCard = (props) => {
     return (
-        
+        <div className="row">
+            <div className="column">
         <div className = "card" >
             <div className="card-body" >
                 {/* <div className="card-container"> */}
@@ -16,8 +17,9 @@ const BookCard = (props) => {
 
                     </div>
                 </div>
-            </div>  
-            // </div>
+            </div> 
+            </div> 
+             </div>
     )
 }
 

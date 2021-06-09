@@ -1,9 +1,8 @@
 /* ****************************HEADER****************************** */
-
-*{
-  background-size: cover;
-  background: url(https://www.protocol.com/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNTYzNDc5OC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTY1MTI2Nzg1NX0.1TniDEeokHM4YagrY-mpqY8KH260ivfsfBVZeN6kTXs/image.jpg?width=1245&quality=85&coordinates=0%2C230%2C0%2C230&height=700) no-repeat;
-}
+/* 
+.container{
+  background: url(https://www.protocol.com/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNTYzNDc5OC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTY1MTI2Nzg1NX0.1TniDEeokHM4YagrY-mpqY8KH260ivfsfBVZeN6kTXs/image.jpg?width=1245&quality=85&coordinates=0%2C230%2C0%2C230&height=700) no-repeat ;
+} */
 
 .header{ 
   padding: 30px 0 30px 0;
@@ -30,11 +29,24 @@
   
 }
   
-/* ****************************SEARCH****************************** */
-
-.card {
- width: 10rems;
+/* ****************************Card****************************** */
+.card{
+  position: column;
+}
+.card-body {
+ width: 25%;
  text-align: center;
- background-color: darkgray;
+ background-color: rgb(189, 156, 156);
 
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
