@@ -53,10 +53,12 @@ handleSort = (e) => {
         )
         return (
             
-        <div >
+        <div className="output" >
+            <div >
             <SearchArea handleSort={this.handleSort} searchBook={this.searchBook} handleSearch={this.handleSearch}/>
+            </div>
         <Container>
-            <div className="">
+            <div >
            
             < BookList books={sortedBooks} />
         </div>

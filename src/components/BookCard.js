@@ -1,16 +1,11 @@
 import React from 'react'
 import { CardGroup, Card } from "react-bootstrap"
 
+
 const BookCard = (props) => {
     return (
-        // <div className="">
-        // <div className="col-sm-6"> 
-          
-        // <div className = "card" >
-        //     <div className="card-body" >
-                /* <div className="card-container"> */
                 <CardGroup>
-                  <Card>
+                  <Card >
                    
                         
                     <Card.Img className="book-img"variant="top" src={props.image} alt="book" />

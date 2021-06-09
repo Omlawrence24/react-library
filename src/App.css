@@ -16,9 +16,8 @@
   display:inline;
   margin-left: 15px;
   font-weight:300;
-  font-size: 256%;
-  font-family: fantasy;
-} 
+  font-size: 300%;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;} 
 
 /* ****************************SEARCH****************************** */
 
@@ -52,7 +51,7 @@
   clear: both;
 } */
 .book-card{
-  padding: 3rem;
+  padding: 9rem;
 }
 .book-text{
 
@@ -61,7 +60,17 @@
 
 .book-img{
   object-fit: cover;
-    border-radius: 10%;
+    border: 20%;
     width: 50vw;
 height: 50vh;
 } 
+
+.output{
+margin-top: 30px;
+background-color: black;
+}
+
+  .option{
+color: rgb(52, 52, 255);
+
+  }

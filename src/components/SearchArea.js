@@ -3,6 +3,9 @@ import React from 'react'
 const SearchArea = (props) => {
     return (
         <div className="search">
+       
+        Search By keyword
+        
             <form 
             onSubmit={props.searchBook} 
             action="">
@@ -12,7 +15,8 @@ const SearchArea = (props) => {
         <button onClick={props.searchBook}  className="primary" type="submit">
         Search
         </button>
-        <select defaultValue="Sort" onChange={props.handleSort}>
+        <div>Sort</div>
+        <select className="option" defaultValue="Sort" onChange={props.handleSort}>
             <option value="Sort"></option>
             <option value="Newest">Newest</option>
             <option value="Oldest">Oldest</option>
